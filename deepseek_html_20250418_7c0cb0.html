@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaundryLounge - Professional Laundry Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        .header {
+            background: #ffffff;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1581578731548-c64695cc6952');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .services {
+            padding: 3rem 1rem;
+            background: #f9f9f9;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .contact {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .contact-info {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: #f1f1f1;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="LaundryLounge Logo" class="logo">
+        <!-- Replace logo.png with your actual logo file -->
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to LaundryLounge</h1>
+        <p>Professional Laundry Services with Care</p>
+    </section>
+
+    <section class="services">
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1551761429-8232f9f5955c?q=80&w=3106&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Washing Service">
+                <h3>Washing</h3>
+                <p>Professional washing with premium detergents</p>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1535999930924-9b47c55d0f7b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Drying Service">
+                <h3>Drying</h3>
+                <p>Fast and efficient drying solutions</p>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Folding Service">
+                <h3>Folding</h3>
+                <p>Expert folding and packaging</p>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cleaning Service">
+                <h3>Deep Cleaning</h3>
+                <p>Specialized stain removal and fabric care</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📞 Call us: <a href="tel:+919371092958">+91 93710 92958</a></p>
+            <p>📍 Address: <a href="https://maps.app.goo.gl/marathahalli" target="_blank">Marathahalli, Bangalore, Karnataka</a></p>
+            <p>🕒 Open Hours: Daily 7AM - 10PM</p>
+            <a href="tel:+919371092958" class="button">Call Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 LaundryLounge - All rights reserved</p>
+    </footer>
+</body>
+</html>
